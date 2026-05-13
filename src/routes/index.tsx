@@ -123,9 +123,8 @@ function Hero() {
             transition={{ duration: 0.7, delay: 0.1 }}
             className="mt-5 font-display font-bold uppercase text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[0.95] text-balance"
           >
-            Сварочные работы<br />
-            и металлоконструкции <span className="text-primary">на заказ</span><br />
-            в вашем городе
+            СВАРОЧНЫЕ РАБОТЫ<br />
+            И МЕТАЛЛОКОНСТРУКЦИИ <span className="text-primary">В ТРОИЦКЕ</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
