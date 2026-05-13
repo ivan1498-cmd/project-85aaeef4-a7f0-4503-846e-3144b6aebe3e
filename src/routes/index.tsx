@@ -100,7 +100,7 @@ function Index() {
 
 function Hero() {
   return (
-    <section className="relative min-h-[100svh] flex items-end overflow-hidden pt-20">
+    <section className="relative min-h-[100svh] flex items-center md:items-end overflow-hidden pt-20">
       <img
         src={heroImg}
         alt="Сварщик за работой"
@@ -112,7 +112,7 @@ function Hero() {
       <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/40 to-transparent" />
       <div className="absolute inset-0 bg-grid opacity-[0.35]" />
 
-      <div className="relative mx-auto max-w-7xl w-full px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+      <div className="relative mx-auto max-w-7xl w-full px-4 sm:px-6 lg:px-8 py-12 md:py-24">
         <div className="max-w-3xl">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
             <SectionLabel>Местная сварочная мастерская</SectionLabel>
@@ -121,10 +121,10 @@ function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.1 }}
-            className="mt-5 font-display font-bold uppercase text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[0.95] text-balance"
+            className="mt-5 font-display font-bold uppercase text-[2rem] sm:text-5xl md:text-6xl lg:text-7xl leading-[1] sm:leading-[0.95] text-balance"
           >
             СВАРОЧНЫЕ РАБОТЫ<br />
-            И МЕТАЛЛОКОНСТРУКЦИИ <span className="text-primary">В ТРОИЦКЕ</span>
+            И МЕТАЛЛО­КОНСТРУКЦИИ <span className="text-primary">В ТРОИЦКЕ</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
